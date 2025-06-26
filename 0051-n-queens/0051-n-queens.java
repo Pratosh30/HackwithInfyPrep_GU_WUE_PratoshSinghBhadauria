@@ -18,7 +18,7 @@ class Solution {
 
     private void backtrack(int row, char[][] board, List<List<String>> solutions,
                            boolean[] cols, boolean[] d1, boolean[] d2, int n) {
-        if (row == n) {
+        if (row == n) { 
             // A valid solution is found, add it to the result list
             solutions.add(construct(board));
             return;
