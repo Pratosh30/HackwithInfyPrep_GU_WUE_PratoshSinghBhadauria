@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/0070-climbing-stairs) |
+| [1323-maximum-69-number](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1323-maximum-69-number) |
 | [1390-four-divisors](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1390-four-divisors) |
 ## Dynamic Programming
 |  |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/0134-gas-station) |
+| [1323-maximum-69-number](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1323-maximum-69-number) |
 ## Linked List
 |  |
 | ------- |
