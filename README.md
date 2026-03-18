@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1758-distribute-repeating-integers](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1758-distribute-repeating-integers) |
 | [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 ## Hash Table
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/0085-maximal-rectangle) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 ## Math
 |  |
 | ------- |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 ## Binary Search
 |  |
