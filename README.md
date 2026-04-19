@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1758-distribute-repeating-integers](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1758-distribute-repeating-integers) |
 | [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1848-minimum-distance-to-the-target-element) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2463-minimum-total-distance-traveled](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2463-minimum-total-distance-traveled) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3643-flip-square-submatrix-vertically) |
 ## String Matching
 |  |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3488-closest-equal-element-queries](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3488-closest-equal-element-queries) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
