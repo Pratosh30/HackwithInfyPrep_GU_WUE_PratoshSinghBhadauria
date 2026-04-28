@@ -1,33 +1,32 @@
 class Solution {
     public int minOperations(int[][] grid, int x) {
-        List<Integer> arr = new ArrayList<>();
-
-        // flatten grid
-        for(int[] row : grid){
-            for(int v : row){
-                arr.add(v);
+        int n = grid.length, m = grid[0].length;
+        int[] freq = new int[10001];
+        //check -1 cases
+        boolean foundFalse = false;
+        int currChoice = grid[0][0];
+        for (int[] row : grid) {
+            for (int y : row) {
+                freq[y]++;
+                if (Math.abs(currChoice - y) % x != 0)
+                    foundFalse = true;
             }
         }
-
-        // check divisibility
-        int base = arr.get(0);
-        for(int v : arr){
-            if(Math.abs(v - base) % x != 0)
-                return -1;
+        if (foundFalse) return -1;
+        //sorting
+        int[] arr = new int[n * m];
+        int k = 0;
+        for (int i = 0; i < 10001; i++) {
+            for (int j = 0; j < freq[i]; j++) {
+                arr[k++] = i;
+            }
         }
-
-        // sort
-        Collections.sort(arr);
-
-        // median
-        int median = arr.get(arr.size()/2);
-
-        // count operations
-        int ops = 0;
-        for(int v : arr){
-            ops += Math.abs(v - median) / x;
+        int count = 0;
+        //pick best middle element
+        int median = arr[arr.length / 2];
+        for (int num : arr) {
+            count += Math.abs(num - median) / x;
         }
-
-        return ops;
+        return count;
     }
 }
