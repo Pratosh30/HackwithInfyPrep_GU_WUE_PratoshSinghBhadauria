@@ -1,37 +1,39 @@
+
 class Solution {
-    static ArrayList<Integer> goodNumbers = new ArrayList<>();
-    static ArrayList<Integer> goodNumberCount = new ArrayList<>();
     public int rotatedDigits(int n) {
-        if(goodNumbers.isEmpty()) {
-            createAGoodNumberList();
-        }
-        return goodNumberCount.get(n);
+        char[] digits = String.valueOf(n).toCharArray();
+        Integer[][][] memo = new Integer[digits.length][2][2];
+        return dfs(0, 1, 0, digits, memo);
     }
 
-    private void createAGoodNumberList() {
+    private int dfs(int pos, int tight, int changed, char[] digits, Integer[][][] memo) {
+        if (pos == digits.length) {
+            return changed == 1 ? 1 : 0;
+        }
+
+        if (memo[pos][tight][changed] != null) {
+            return memo[pos][tight][changed];
+        }
+
+        int limit = tight == 1 ? digits[pos] - '0' : 9;
         int count = 0;
-        for(int num = 0; num <= 10000; num++) {
-            boolean isValid = isValidGoodNumber(num);
-            if(isValid) {
-                count++;
-                goodNumbers.add(num);
-            }
-            goodNumberCount.add(count);
-        }
-    }
 
-    private boolean isValidGoodNumber(int num) {
-        boolean isValid = false;
-        while(num > 0) {
-            int digit = num % 10;
-            if( digit == 3 || digit == 4 || digit == 7) {
-                return false;
+        for (int d = 0; d <= limit; d++) {
+            if (d == 3 || d == 4 || d == 7) {
+                continue;
             }
-            if(digit == 2 || digit == 5 || digit == 6 || digit == 9) {
-                isValid = true;
+
+            int nextTight = tight == 1 && d == limit ? 1 : 0;
+            int nextChanged = changed;
+
+            if (d == 2 || d == 5 || d == 6 || d == 9) {
+                nextChanged = 1;
             }
-            num /= 10;
+
+            count += dfs(pos + 1, nextTight, nextChanged, digits, memo);
         }
-        return isValid;
+
+        memo[pos][tight][changed] = count;
+        return count;
     }
 }
