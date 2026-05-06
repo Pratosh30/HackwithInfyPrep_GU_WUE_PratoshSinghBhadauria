@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1825-find-minimum-time-to-finish-all-jobs](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1825-find-minimum-time-to-finish-all-jobs) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1861-rotating-the-box](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1861-rotating-the-box) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1929-concatenation-of-array](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1929-concatenation-of-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1861-rotating-the-box](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1861-rotating-the-box) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2906-construct-product-matrix](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2906-construct-product-matrix) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0061-rotate-list](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/0061-rotate-list) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1861-rotating-the-box](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/1861-rotating-the-box) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3643-flip-square-submatrix-vertically) |
 ## String Matching
 |  |
