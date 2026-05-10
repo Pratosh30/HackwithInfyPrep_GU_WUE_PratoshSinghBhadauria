@@ -1,31 +1,26 @@
 class Solution {
     public int maximumJumps(int[] nums, int target) {
-
-        int n = nums.length;
-
-        // dp[i] stores maximum jumps to reach index i
-        int[] dp = new int[n];
-
-        // Mark all indices unreachable
-        Arrays.fill(dp, -1);
-
-        // Starting index needs 0 jumps
-        dp[0] = 0;
-
-        for(int i = 1; i < n; i++) {
-
-            // Check all previous indices
-            for(int j = 0; j < i; j++) {
-
-                // Valid jump and previous index reachable
-                if(Math.abs(nums[i] - nums[j]) <= target && dp[j] != -1) {
-
-                    // Update maximum jumps
-                    dp[i] = Math.max(dp[i], dp[j] + 1);
+        if(nums.length==2){
+            int dif = nums[1]-nums[0];
+                if((-1*target)<=dif && dif<=target){
+                    return 1;
+                }
+                else{
+                    return -1;
+                }
+        }
+        int dp[]= new int[nums.length];
+        Arrays.fill(dp,Integer.MIN_VALUE);
+        dp[0]=0;
+        for(int i=0;i<nums.length-1;i++){
+            if(dp[i]==Integer.MIN_VALUE) continue;
+            for(int j=i+1;j<nums.length;j++){
+                int dif = nums[j]-nums[i];
+                if((-1*target)<=dif && dif<=target){
+                    dp[j]=Math.max(1+dp[i],dp[j]);
                 }
             }
         }
-
-        return dp[n - 1];
+        return dp[nums.length-1]==Integer.MIN_VALUE?-1:dp[nums.length-1];
     }
 }
