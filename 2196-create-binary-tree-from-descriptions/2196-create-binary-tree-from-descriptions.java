@@ -14,46 +14,25 @@
  * }
  */
 class Solution {
+    private static final TreeNode[] nodes = new TreeNode[100001];
     public TreeNode createBinaryTree(int[][] descriptions) {
-        HashMap<Integer, TreeNode> mp = new HashMap<>();
-        HashMap<Integer, Integer> root = new HashMap<>();
-
-        for (int[] d : descriptions) {
-
-            int parent = d[0];
-            int child = d[1];
-            int isLeft = d[2];
-
-            if (!mp.containsKey(parent)) {
-                mp.put(parent, new TreeNode(parent));
+       for (int[] x : descriptions) {
+            nodes[x[0]] = null;
+        }
+        for (int[] x : descriptions) {
+            nodes[x[1]] = new TreeNode(x[1]);
+        }
+        TreeNode root = null;
+        for (int[] x : descriptions) {
+            if (nodes[x[0]] == null) {
+                root = nodes[x[0]] = new TreeNode(x[0]);
             }
-
-            if (!mp.containsKey(child)) {
-                mp.put(child, new TreeNode(child));
-            }
-
-            if (isLeft == 1) {
-                mp.get(parent).left = mp.get(child);
+            if (x[2] == 1) {
+                nodes[x[0]].left = nodes[x[1]];
             } else {
-                mp.get(parent).right = mp.get(child);
-            }
-
-            if (root.getOrDefault(parent, 0) != -1) {
-                root.put(parent, 1);
-            }
-
-            root.put(child, -1);
-        }
-
-        int rootVal = 0;
-
-        for (var entry : root.entrySet()) {
-            if (entry.getValue() == 1) {
-                rootVal = entry.getKey();
-                break;
+                nodes[x[0]].right = nodes[x[1]];
             }
         }
-
-        return mp.get(rootVal);
+        return root;
     }
 }
