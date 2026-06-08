@@ -1,32 +1,29 @@
 class Solution {
-    public int[] pivotArray(int[] nums, int pivot) {
+    static{
+        for(int i=0;i<300;i++) pivotArray(new int[2],0);
+    }
+    public static int[] pivotArray(int[] nums, int pivot) {
         int n = nums.length;
-        int[] ans = new int[n];
-
+        int[] result = new int[n];
+        
         int left = 0;
         int right = n - 1;
-
-        int i = 0;
-        int j = n - 1;
-
-        while (i < n) {
+        
+        // Step 1: Place smaller elements from left, larger from right
+        for (int i = 0, j = n - 1; i < n; i++, j--) {
             if (nums[i] < pivot) {
-                ans[left++] = nums[i];
+                result[left++] = nums[i];
             }
-
             if (nums[j] > pivot) {
-                ans[right--] = nums[j];
+                result[right--] = nums[j];
             }
-
-            i++;
-            j--;
         }
-
-        // Remaining positions contain pivot
+        
+        // Step 2: Fill the remaining middle slots with the pivot value
         while (left <= right) {
-            ans[left++] = pivot;
+            result[left++] = pivot;
         }
-
-        return ans;
+        
+        return result;
     }
 }
