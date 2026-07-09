@@ -1,31 +1,26 @@
 class Solution {
     public boolean[] pathExistenceQueries(int n, int[] nums, int maxDiff, int[][] queries) {
+        // component[i] = connected component containing node i
+        int[] component = new int[n];
 
-        boolean[] res = new boolean[queries.length];
-
-        int[] comp = new int[n];
-
-        int com = 0;
-        comp[0] = com;
+        int componentId = 0;
+        component[0] = componentId;
 
         for (int i = 1; i < n; i++) {
-
             if (nums[i] - nums[i - 1] > maxDiff) {
-                com++;
+                componentId++;
             }
-
-            comp[i] = com;
+            component[i] = componentId;
         }
 
+        boolean[] answer = new boolean[queries.length];
 
         for (int i = 0; i < queries.length; i++) {
-            int source = queries[i][0];
-            int dest = queries[i][1];
-
-            if ((source == dest) || (comp[source] == comp[dest]))
-                res[i] = true;
+            int u = queries[i][0];
+            int v = queries[i][1];
+            answer[i] = component[u] == component[v];
         }
 
-        return res;
+        return answer;
     }
 }
