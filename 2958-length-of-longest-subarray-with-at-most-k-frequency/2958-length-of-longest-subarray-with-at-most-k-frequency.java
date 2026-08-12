@@ -1,22 +1,29 @@
 class Solution {
+    static class Counter {
+        int cnt = 0;
+    }
     public int maxSubarrayLength(int[] nums, int k) {
-        HashMap<Integer, Integer> m = new HashMap<>();
+        int N = nums.length;
+        Map<Integer, Counter> map = new HashMap<>();
 
-        int i = 0, j = 0;
-        int res = 0;
-
-        while (j < nums.length) {
-            m.put(nums[j], m.getOrDefault(nums[j], 0) + 1);
-
-            while (m.get(nums[j]) > k) {
-                m.put(nums[i], m.get(nums[i]) - 1);
-                i++;
+        int ll = 0;
+        int rr = 0;
+        int result = 0;
+        while (rr < N) {
+            int num = nums[rr++];
+            Counter counter = map.get(num);
+            if ( counter == null ) map.put(num, counter = new Counter());
+            if ( counter.cnt < k ) {
+                counter.cnt++;
+            } else {
+                int num2 = 0;
+                while ( (num2 = nums[ll++]) != num ) {
+                    Counter counter2 = map.get(num2);
+                    counter2.cnt--;
+                }
             }
-
-            res = Math.max(res, j - i + 1);
-            j++;
+            result = Math.max(result, rr - ll);
         }
-
-        return res;
+        return result;
     }
 }
