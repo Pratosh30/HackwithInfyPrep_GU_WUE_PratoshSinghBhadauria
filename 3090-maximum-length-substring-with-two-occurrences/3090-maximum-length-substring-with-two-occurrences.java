@@ -1,17 +1,22 @@
 class Solution {
     public int maximumLengthSubstring(String s) {
-        Map<Character, Integer> count = new HashMap<>();
-        int i = 0, res = 0;
-        for (int j = 0; j < s.length(); j++) {
-            char c = s.charAt(j);
-            count.put(c, count.getOrDefault(c, 0) + 1);
-            while (count.get(c) > 2) {
-                char left = s.charAt(i);
-                count.put(left, count.get(left) - 1);
-                i++;
+        int[] count = new int[26];
+        int left = 0;
+        int maxLength = 0;
+        
+        for (int right = 0; right < s.length(); right++) {
+            char c = s.charAt(right);
+            count[c - 'a']++;
+            
+            while (count[c - 'a'] > 2) {
+                char leftChar = s.charAt(left);
+                count[leftChar - 'a']--;
+                left++;
             }
-            res = Math.max(res, j - i + 1);
+            
+            maxLength = Math.max(maxLength, right - left + 1);
         }
-        return res;
+        
+        return maxLength;
     }
 }
