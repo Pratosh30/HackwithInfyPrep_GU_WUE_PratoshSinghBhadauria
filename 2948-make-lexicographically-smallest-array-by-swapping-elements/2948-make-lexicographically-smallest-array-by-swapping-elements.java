@@ -1,29 +1,48 @@
+
+import java.util.Arrays;
+
 class Solution {
-    public int[] lexicographicallySmallestArray(int[] A, int limit) {
-        int[] srt = A.clone();
-        Arrays.sort(srt);
-        List<List<Integer>> grps = new ArrayList<>();
-        Map<Integer, Integer> map = new HashMap<>();
-        int id = -1;
+    public int[] lexicographicallySmallestArray(int[] nums, int limit) {
+        int n = nums.length;
+        long[] sorted = new long[n];
 
-        for (int i = 0; i < srt.length; i++) {
-            if (i == 0 || srt[i] - srt[i - 1] > limit) {
-                grps.add(new ArrayList<>());
-                id++;
+        for (int i = 0; i < n; i++) {
+            sorted[i] = ((long) nums[i] << 32) | (i & 0xffffffffL);
+        }
+
+        Arrays.sort(sorted);
+
+        int[] values = new int[n];
+        for (int i = 0; i < n; i++) {
+            values[i] = (int) (sorted[i] >>> 32);
+        }
+
+        int start = 0;
+
+        while (start < n) {
+            int end = start;
+
+            while (end + 1 < n &&
+                   values[end + 1] - values[end] <= limit) {
+                end++;
             }
-            
-            grps.get(id).add(srt[i]);
-            map.put(srt[i], id);
+
+            int size = end - start + 1;
+            int[] indices = new int[size];
+
+            for (int i = 0; i < size; i++) {
+                indices[i] = (int) sorted[start + i];
+            }
+
+            Arrays.sort(indices);
+
+            for (int i = 0; i < size; i++) {
+                nums[indices[i]] = values[start + i];
+            }
+
+            start = end + 1;
         }
 
-        int[] idx = new int[grps.size()];
-
-        for (int i = 0; i < A.length; i++) {
-            int cur = map.get(A[i]);
-            A[i] = grps.get(cur).get(idx[cur]);
-            idx[cur]++;
-        }
-
-        return A;
+        return nums;
     }
 }
