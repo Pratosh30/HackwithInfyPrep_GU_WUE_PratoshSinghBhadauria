@@ -1,18 +1,19 @@
 class Solution {
-    int MOD = 1000000007;
-
     public int distinctSubseqII(String s) {
-        int tot = 0;
-        int[] dp = new int[26];
+        int n=s.length();
+        long[] last = new long[27];
 
-        for (int i = 0; i < s.length(); i++) {
-            int c = s.charAt(i) - 97;
-            int add = (tot - dp[c] + MOD) % MOD;
-
-            dp[c] = 1 + tot;
-            tot = (dp[c] + add) % MOD;
+        long subSeqCount =0;
+        long count=1;
+        int mod =1000000007;
+        for(int i=0;i<n;i++){
+            int ch = (int)s.charAt(i)-97;
+            subSeqCount = (2*count-last[ch]+mod)%mod;
+            last[ch] = count;
+            count = subSeqCount;
         }
 
-        return tot;
+        return (int)(subSeqCount-1+mod)%mod;
     }
+
 }
