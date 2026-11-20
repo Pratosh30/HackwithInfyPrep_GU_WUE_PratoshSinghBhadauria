@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2463-minimum-total-distance-traveled) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3225-maximum-score-from-grid-operations) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -640,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3517-smallest-palindromic-rearrangement-i) |
