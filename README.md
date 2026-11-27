@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3903-smallest-stable-index-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3904-smallest-stable-index-ii) |
 | [3934-smallest-unique-subarray](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3934-smallest-unique-subarray) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3742-maximum-path-score-in-a-grid](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Memoization
 |  |
 | ------- |
@@ -456,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3689-maximum-total-subarray-value-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/Pratosh30/HackwithInfyPrep_GU_WUE_PratoshSinghBhadauria/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Linked List
 |  |
 | ------- |
